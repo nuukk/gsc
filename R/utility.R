@@ -55,7 +55,7 @@ parseDimFilterGroup <- function(dfe){
   ## get lookup data
   country.codes <- ISO_3166_1$Alpha_3
   devices <- c('DESKTOP','MOBILE','TABLET')
-  searchAppearance <- c('AMP_BLUE_LINK', 'AMP_TOP_STORIES', 'RICHCARD', 'PAGE_EXPERIENCE', 'ORGANIC_SHOPPING', 'REVIEW_SNIPPET', 'VIDEO', 'WEBLITE')
+  searchAppearance <- c('AMP_BLUE_LINK', 'AMP_TOP_STORIES', 'RICHCARD', 'PAGE_EXPERIENCE', 'ORGANIC_SHOPPING', 'REVIEW_SNIPPET', 'VIDEO', 'WEBLITE', 'TPF_FAQ', 'TRANSLATED_RESULT', 'SEARCH_APPEARANCE_ANDROID_APP')
   op_symbol <-  c("~~" = 'contains',
                   "==" = 'equals',
                   "!~" = 'notContains',
